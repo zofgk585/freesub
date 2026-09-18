@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
-  server: 165.154.195.38
-  port: 35034
-  udp: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
   server: 35.201.230.136
   port: 443
   udp: true
@@ -24,22 +16,35 @@ proxies:
     public-key: Uq9Q8VXK9VkVOJ1M5PfORTqMhjjGoIS40-V0tAG_1FM
     short-id: 5e13a6d43d0644c9
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
-  server: 103.115.109.49
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'https:'
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
   server: 160.187.100.109
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  server: 104.199.219.172
+  port: 40800
+  udp: true
+  type: vless
+  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
+    short-id: 186e4c2732d61a3d
+  servername: www.intel.com
+  client-fingerprint: firefox
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
