@@ -22,6 +22,27 @@
     {
       "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+      "server": "sql.popmintxo.cc",
+      "server_port": 443,
+      "uuid": "d806a58b-33aa-42e0-b170-395e49c16b37",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ",
+          "short_id": "b558b9305a0b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
       "server": "46.243.142.227",
       "server_port": 10443,
       "uuid": "a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30",
@@ -50,7 +71,8 @@
         "auto",
         "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe"
       ]
     },
     {
@@ -59,7 +81,8 @@
       "outbounds": [
         "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
