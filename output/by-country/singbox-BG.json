@@ -6,48 +6,6 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "188.114.98.134",
-      "server_port": 443,
-      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
-      "tls": {
-        "enabled": true,
-        "server_name": "o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-      "server": "192.145.31.5",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
       "server": "45.9.156.103",
       "server_port": 443,
       "uuid": "e633de28-bfc0-4aca-aa67-e2e12e2c9e58",
@@ -67,47 +25,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
-      "server": "108.165.233.223",
-      "server_port": 443,
-      "uuid": "2388e166-3890-33ae-f77e-efac00000001",
-      "tls": {
-        "enabled": true,
-        "server_name": "netlivpn4813.ddhshhshs.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-        "headers": {
-          "Host": "netlivpn4813.ddhshhshs.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
