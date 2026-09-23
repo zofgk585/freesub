@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.250
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -24,7 +24,7 @@ proxies:
     public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
     short-id: 0ad08b47f498efd2
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: 34.87.244.111
   port: 443
@@ -36,7 +36,7 @@ proxies:
     public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
     short-id: d725f0dd8cce210f
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: ios
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   server: nova.freshnet.ir
   port: 2082
@@ -69,7 +69,7 @@ proxies:
   port: 20270
   udp: true
   type: vless
-  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
+  uuid: 38b8e2fb-b9a0-40a6-b42c-335def2765cf
   flow: xtls-rprx-vision
   tls: true
   reality-opts:

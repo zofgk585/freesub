@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  server: 199.232.78.101
+  port: 443
+  udp: true
+  type: trojan
+  password: MITIVpN
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 136.175.82.85
   port: 18775
   udp: true
@@ -17,7 +28,7 @@ proxies:
     short-id: 6ba85179e30d4fc2
   servername: addons.mozilla.org
   client-fingerprint: ''
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 131.123.41.18
   port: 443
   udp: true
@@ -37,6 +48,7 @@ proxy-groups:
   - AUTO
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +56,6 @@ proxy-groups:
   proxies:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
 rules:
 - MATCH,PROXIES
