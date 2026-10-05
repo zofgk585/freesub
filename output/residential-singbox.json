@@ -6,26 +6,37 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
-      "server": "test.keoplentuio.xyz",
+      "server": "212.74.39.235",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "server": "5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "55cce5a4-56b7-11ee-af82-f23c9164ca5d",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+      "server": "147.45.42.73",
+      "server_port": 20443,
+      "uuid": "f293db4d-7ab1-4faf-bb15-89540d8709cb",
       "tls": {
         "enabled": true,
-        "server_name": "5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com",
-        "insecure": false
+        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "172.66.152.4",
+      "server": "104.20.36.205",
       "server_port": 443,
       "uuid": "08aaab35-a42d-4755-a03e-20c18cb1b3e8",
       "tls": {
@@ -47,7 +58,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ]
     },
@@ -56,7 +67,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

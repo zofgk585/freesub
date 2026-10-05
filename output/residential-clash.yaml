@@ -5,21 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
-  server: test.keoplentuio.xyz
+  server: 212.74.39.235
   port: 2053
   udp: true
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  server: 5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com
-  port: 443
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  server: 147.45.42.73
+  port: 20443
   udp: true
-  type: hysteria2
-  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  sni: 5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com
+  type: vless
+  uuid: f293db4d-7ab1-4faf-bb15-89540d8709cb
+  tls: true
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  server: 172.66.152.4
+  server: 104.20.36.205
   port: 443
   udp: true
   type: vless
@@ -38,7 +45,7 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
@@ -46,7 +53,7 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
