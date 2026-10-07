@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 132.243.231.4
+- name: 🇬🇷 希腊 (Greece) 01 - xiaohe
+  server: 157.228.160.166
   port: 443
   udp: true
   type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: zWDvtTWK-cWWwHDMHMXcOpQy4k3EKp7yw-5e0wTZAUM
-    short-id: 5efa80b939612291
-  servername: d3-se1.cloud-cdn.xyz
-  client-fingerprint: firefox
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇬🇷 希腊 (Greece) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇬🇷 希腊 (Greece) 01 - xiaohe
 rules:
 - MATCH,PROXIES
